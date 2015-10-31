@@ -2,13 +2,15 @@ defmodule PhoenixGuides.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :phoenix_guides,
-     version: "0.0.1",
+    [app: :"Phoenix Guides",
+     version: "1.0.4-dev",
      elixir: "~> 1.1",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps,
      docs: [
+          logo: "images/phoenix-logo.png",
+          main: "extra-up-and-running",
           extras: [
             "Up And Running.md",
             "Adding Pages.md",
