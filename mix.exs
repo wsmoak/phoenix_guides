@@ -10,16 +10,18 @@ defmodule PhoenixGuides.Mixfile do
      deps: deps,
      docs: [
           extras: [
-            "A_up_and_running.md",
-            "B_adding_pages.md",
-            "C_routing.md",
-            "D_controllers.md",
-            "DD_Plug.md",
-            "E_views.md",
-            "F_templates.md",
-            "G_channels.md",
-            "H_ecto_models.md",
-            "testing/A_introduction.md"
+            "Up And Running.md",
+            "Adding Pages.md",
+            "Routing.md",
+            "Controllers.md",
+            "Plug.md",
+            "Views.md",
+            "Templates.md",
+            "Channels.md",
+            "Ecto Models.md",
+            "testing/Testing Introduction.md",
+            "testing/Testing Models.md",
+            "testing/Testing Channels.md"
           ]
       ]
     ]
