@@ -9,7 +9,7 @@ defmodule PhoenixGuides.Mixfile do
      start_permanent: Mix.env == :prod,
      deps: deps,
      docs: [
-          logo: "images/phoenix-logo.png",
+#          logo: "images/phoenix-logo.png",
           main: "extra-up-and-running",
           extras: [
             "Up And Running.md",
