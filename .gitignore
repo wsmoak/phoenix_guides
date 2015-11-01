@@ -4,4 +4,4 @@
 erl_crash.dump
 .sass-cache
 *.ez
-
+/doc
