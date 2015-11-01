@@ -8,7 +8,7 @@ If you are already familiar with Elixir, great! If not, there are a number of pl
 
 The aim of this introductory guide is to present a brief, high-level overview of Phoenix, the parts that make it up, and the layers underneath that support it.
 
-### Phoenix
+## Phoenix
 
 Phoenix is actually the top layer of a multi-layer system designed to be modular and flexible. The other layers include Plug, and Ecto, which we will cover right after Phoenix in this overview. The Erlang HTTP server, Cowboy, acts as the foundation for Plug and Phoenix, but we won't be covering Cowboy directly in these guides.
 
@@ -44,7 +44,7 @@ Phoenix is made up of a number of distinct parts, each with its own purpose and 
   - underlies the channel layer and allows clients to subscribe to *topics*
   - abstracts the underlying pubsub adapter for third-party pubsub integration
 
-### Plug
+## Plug
 
 [Plug](http://hexdocs.pm/plug/) is a specification for constructing composable modules to build web applications. Plugs are reusable modules or functions built to that specification. They provide discrete behaviors - like request header parsing or logging. Because the Plug API is small and consistent, plugs can be defined and executed in a set order, like a pipeline. They can also be re-used within a project or across projects.
 
@@ -56,7 +56,7 @@ One of the most important things about Plug is that it provides adapters to HTTP
 
 Have a look at the [Plug Guide](http://www.phoenixframework.org/docs/understanding-plug) for more details.
 
-### Ecto
+## Ecto
 
 [Ecto](http://hexdocs.pm/ecto) is a language integrated query composition tool and database wrapper for Elixir. With Ecto, we can read and write to different databases, model our domain data, write complex queries in a type-safe way, protect against attack vectors - including SQL injection, and much more.
 
