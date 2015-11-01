@@ -10,8 +10,12 @@ defmodule PhoenixGuides.Mixfile do
      deps: deps,
      docs: [
 #          logo: "images/phoenix-logo.png",
-          main: "extra-up-and-running",
+          main: "extra-overview",
           extras: [
+            "introduction/Overview.md",
+            "introduction/Installation.md",
+            "introduction/Learning.md",
+            "introduction/Community.md",
             "Up And Running.md",
             "Adding Pages.md",
             "Routing.md",
